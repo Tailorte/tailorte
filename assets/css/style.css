@@ -12205,3 +12205,7 @@ form.signin-form {
     font-family: 'customFont';
 }
 /* //blog */
+
+.hide {
+  display: none;
+}
