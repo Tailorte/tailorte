@@ -9,8 +9,8 @@
     <title>Contact Us :: Tailorte</title>
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/css/style.css">
-	<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="/../assets/css/style.css">
+	<link rel="icon" type="image/png" sizes="32x32" href="/../assets/images/favicon-32x32.png">
   </head>
   <body>
 <!-- header -->
@@ -19,8 +19,8 @@
   <div class="container">
       <nav class="navbar navbar-expand-lg stroke">
 
-      <a class="navbar-brand" href="#index.html">
-          <img src="assets/images/Tailorte-logo.svg" alt="Tailorte-logo" title="Tailorte-logo"  />
+      <a class="navbar-brand" href="/">
+          <img src="/../assets/images/Tailorte-logo.svg" alt="Tailorte-logo" title="Tailorte-logo"  />
       </a> 
           <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
               data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
@@ -33,23 +33,23 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
               <ul class="navbar-nav ml-auto">
                   <li class="nav-item">
-                      <a class="nav-link" href="index.html">Home </a>
+                      <a class="nav-link" href="/">Home </a>
                   </li>
                   <li class="nav-item @@about__active">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="/about">About</a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="fashion_lover.html">Fashion Lover </a>
+                      <a class="nav-link" href="/fashion-lover">Fashion Lover </a>
                   </li>
 					<li class="nav-item">
                       
-                      <a class="nav-link" href="tailor.html">Tailor </a>
+                      <a class="nav-link" href="/tailor">Tailor </a>
                   </li>
 					<li class="nav-item @@pages__active">
-                      <a class="nav-link" href="pricing.html">Pricing</a>
+                      <a class="nav-link" href="/pricing">Pricing</a>
                   </li>
                   <li class="nav-item active">
-                      <a class="nav-link" href="contact">Contact <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="/contact">Contact <span class="sr-only">(current)</span></a>
                   </li>
                 
               </ul>
@@ -77,7 +77,7 @@
                     <form action="" method="post" class="signin-form">
 					<?php
                      if(isset($_POST['submit'])){
-						$to = 'hello@tailorte.com'; 
+						$to = 'johnvict20@gmail.com'; 
 						$from = $_POST['email']; 
 						$fromName = $_POST['name']; 
 						$phoneNumber = $_POST['phone_number']; 
@@ -237,25 +237,25 @@
                 <div class="col-md-6 col-6 footer-list-28 mt-5">
                   <h6 class="footer-title-28 customFontClass">Quick links</h6>
                   <ul>
-                     <li><a href="fashion_lover.html">Fashion Lovers</a></li>
-					<li><a href="tailor.html">Tailor</a></li>
-					<li><a href="about.html">About</a></li>
-                    <li><a href="pricing.html">Pricing</a></li>
-                    <li><a href="contact">Contact</a></li>
+                     <li><a href="/fashion-lover">Fashion Lovers</a></li>
+					<li><a href="/tailor">Tailor</a></li>
+					<li><a href="/about">About</a></li>
+                    <li><a href="/pricing">Pricing</a></li>
+                    <li><a href="/contact">Contact</a></li>
                   </ul>
                 </div>
                 
                 <div class="col-md-6 footer-list-28 mt-5">
                   <h6 class="footer-title-28 customFontClass">Download App</h6>
-                  <a href="#playstore"><img src="assets/images/googleplay.png" class="img-fluid" alt="playstore" width="160"></a>
-                  <a href="#appstore"><img src="assets/images/appstore.png" class="img-fluid mt-md-2" alt="playstore" width="160"></a>
+                  <a href="#playstore"><img src="/../assets/images/googleplay.png" class="img-fluid" alt="playstore" width="160"></a>
+                  <a href="#appstore"><img src="/../assets/images/appstore.png" class="img-fluid mt-md-2" alt="playstore" width="160"></a>
                 </div>
               </div>
             </div>
           </div>
           <div class="midd-footer-28 align-center py-4 mt-5">
             <p class="copy-footer-28 text-center"> &copy; <script>document.write(/\d{4}/.exec(Date())[0])</script>
- Tailorte. All rights reserved. <a href="privacy_policy.html">Privacy Policy</a>
+ Tailorte. All rights reserved. <a href="/privacy-policy">Privacy Policy</a>
           </div>
         </div>
 
