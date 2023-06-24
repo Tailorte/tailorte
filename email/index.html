@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Tailorte</title>
+
+    <style>
+        body {
+            font-family: 'Nunito Sans';
+            line-height: 1.5;
+            letter-spacing: 0.6px;
+            background-color: #f3e8f9;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main-page {
+            margin: 30px;
+            padding: 35px;
+            background-color: #ffffff;
+            width: 650px;
+            border-radius: 2px;
+        }
+
+        .main-page-row {
+            width: auto;
+            flex: 1 1 0;
+        }
+
+        .head {
+            display: flex;
+            height: 180px;
+            background-color: #ffffff;
+            border-bottom: solid #C4C4C4 1px;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        .social-icon {
+            height: 20px;
+            margin: auto 10px;
+        }
+
+
+        .title {
+            font-weight: 700;
+            font-size: 24px;
+        }
+
+        .salutation {
+            padding-top: 20px;
+        }
+
+        .body {
+            font-weight: 300;
+        }
+
+        .body,
+        .salutation {
+            padding: 20px;
+        }
+
+        .main-content {
+            height: 400px;
+        }
+
+        .center {
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+
+        strong {
+            font-weight: 700;
+        }
+
+        a {
+            cursor: pointer;
+            color: #ffffff;
+        }
+
+        .bottom {
+            background-color: #730C99;
+            color: #ffffff;
+            border-radius: 15px;
+            padding: 35px;
+            height: 210px;
+        }
+
+        .bottom-text {
+            margin: 0 auto 30px auto;
+        }
+
+        .bottom-text>p {
+            margin: 10px;
+        }
+
+        .button {
+            background-color: #730C99;
+            color: #ffffff;
+            width: 130px;
+            /* display: block; */
+            height: 20px;
+            padding: 8px;
+            text-align: center;
+            border-radius: 15px;
+            cursor: pointer;
+            margin-top: 30px;
+            font-weight: 600;
+        }
+
+        :active.button {
+            background-color: #530b70;
+            transition: ease;
+        }
+
+        .action-button {
+            text-decoration: none;
+            font-size: 13px;
+        }
+
+
+        @media only screen and (max-width: 450px) {
+            .main-page {
+                margin: 10px;
+                padding: 0 10px;
+            }
+
+            .head {
+                height: 110px;
+            }
+
+            .social-icon {
+                height: 15px;
+            }
+
+            .title {
+                font-size: 18px;
+            }
+
+            .salutation {
+                padding-top: 15px;
+            }
+
+            .body,
+            .salutation {
+                padding: 10px;
+            }
+
+            .bottom {
+                margin: 30px auto;
+                padding: 25px;
+                height: 250px;
+            }
+
+            .bottom-text>p {
+                margin: 0px;
+            }
+        }
+
+        @media only screen and (max-width: 375px) {
+            .main-page {
+                margin: 0;
+                padding: 0 15px;
+            }
+
+            .social-icon {
+                height: 15px;
+            }
+
+            .title {
+                font-size: 18px;
+            }
+
+            .salutation {
+                padding-top: 15px;
+            }
+
+            .body,
+            .salutation {
+                padding: 10px;
+            }
+
+
+        }
+
+        @media only screen and (max-width: 320px) {
+            .bottom {
+                margin: 70px auto;
+                padding: 20px;
+            }
+        }
+        .row {
+            justify-content: space-between;
+        }
+        .store-img {
+            width: 200px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-page">
+        <div class="main-page-row">
+            <div class="head">
+                <div class="center">
+                    <a href="https://tailorte.com"><img class="logo" src="https://iili.io/H1MQYq7.png"
+                            alt="Tailorte Logo"></a>
+                </div>
+
+            </div>
+        </div>
+        <div class="main-page-row main-content">
+
+            <div class="title">
+                <h4>
+                    Welcome to Tailorte
+                </h4>
+            </div>
+
+            <div class="salutation">
+                Hi <strong>Firstname!</strong>
+            </div>
+
+            <div class="body">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur.
+                </p>
+
+
+                <a href="https://twitter.com/tailorteApp" class="action-button" target="_blank">
+                    <div class="button">
+                        Call to action
+                    </div>
+                </a>
+
+            </div>
+        </div>
+
+        <div class="main-page-row">
+            <div class="bottom">
+                <div class="center">
+                    <div class="row">
+                        <a href="#" target="_blank"><img class="store-img" src="https://iili.io/H1L01El.md.png" alt="download Tailorte"></a>
+                        <a href="#" target="_blank"><img class="store-img" src="https://iili.io/H1LGiZu.png" alt="download Tailorte"></a>
+                    </div>
+                    <div class="bottom-text">
+                        <p>Copyright &copy; 2023. Tailorte</p>
+                        <p>All right reserved</p>
+                    </div>
+
+
+                    <a target="_blank" href="https://twitter.com/tailorteApp"><img class="social-icon"
+                            src="https://iili.io/H1MQcge.png" alt="Tailorte Twitter"></a>
+                    <a target="_blank" href="https://www.linkedin.com/company/tailorte"><img class="social-icon"
+                            src="https://iili.io/H1MQRX2.png" alt="Tailorte LinkedIn"></a>
+                    <a target="_blank" href="https://www.facebook.com/TailorteApp"><img class="social-icon"
+                            src="https://iili.io/H1MQ5sS.png" alt="Tailorte Facebook"></a>
+                    <a target="_blank" href="https://instagram.com/tailorteApp"><img class="social-icon"
+                            src="https://iili.io/H1MQa19.png" alt="Tailorte Instagram"></a>
+
+                    <div class="bottom-text">
+                        <p><a href="#">Unsubscribe</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+</body>
+
+</html>

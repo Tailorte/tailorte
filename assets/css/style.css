@@ -22,6 +22,7 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --black: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
@@ -10394,7 +10395,12 @@ p.link {
   .w3pvt-logo h2,
   .w3pvt-logo h3 {
     font-size: 39px;
-    line-height: 50px; } }
+    line-height: 50px;
+   }
+  .banner {
+    height: 90vh;
+  }
+  }
 
 @media (max-width: 992px) {
   .banner {
