@@ -1,5 +1,5 @@
 // var baseUrl = "http://localhost:8080/api/v1";
-var baseUrl = "http://prod.tailorte.com/api/v1";
+var baseUrl = "https://prod.tailorte.com/api/v1";
 
 async function makeRequest(url, method, body) {
   return fetch(`${baseUrl}/${url}`, {
