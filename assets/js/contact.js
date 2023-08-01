@@ -63,7 +63,7 @@ async function getBenefits() {
           setPricing(item);
           continue;
         }
-        if (item.benefit == "id") {
+        if (item.benefit == "plan_id") {
           continue;
         }
         const tr = document.createElement("tr");
