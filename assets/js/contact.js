@@ -63,6 +63,9 @@ async function getBenefits() {
           setPricing(item);
           continue;
         }
+        if (item.benefit == "id") {
+          continue;
+        }
         const tr = document.createElement("tr");
         const th = document.createElement("th");
         const tdFree = document.createElement("td")
